@@ -31,5 +31,6 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile fileTree(dir:'libs',include:['*.jar'])
 	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
+	runtime('org.springframework.boot:spring-boot-devtools')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
